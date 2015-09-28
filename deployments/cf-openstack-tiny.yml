@@ -4,7 +4,7 @@ director_uuid: DIRECTOR_UUID
 
 releases:
   - name: cf
-    version: 210 # DEFAULT_CF_RELEASE_VERSION
+    version: 215 # DEFAULT_CF_RELEASE_VERSION
     git: https://github.com/cloudfoundry/cf-release.git
   - name: cf-haproxy
     version: 2 # DEFAULT_CFHAPROXY_RELEASE_VERSION
@@ -12,7 +12,7 @@ releases:
 
 stemcells:
   - name: bosh-openstack-kvm-ubuntu-trusty-go_agent
-    version: 2941
+    version: 3026
 
 templates:
   - cf/cf-deployment.yml
